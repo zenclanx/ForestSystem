@@ -45,16 +45,16 @@
 ```bash
 # 1. 前端
 npm install
-npm run dev        【如果你的启动命令是 serve 就改掉】
+npm run dev       
 
 # 2. 后端接口服务（server 目录）
 cd server
 npm install
-node app.js        【按你的实际入口文件改】
+node app.js        
 
-# 3. 识别服务（backend 目录，需 Python 3.x）
+# 3. 识别服务（backend 目录，需 Python 3.7）
 cd backend
-pip install flask ultralytics   【按你实际依赖改】
+pip install flask ultralytics   
 python app.py
 ```
 
